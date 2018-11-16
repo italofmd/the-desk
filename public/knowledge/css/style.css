@@ -1,0 +1,25 @@
+.widget_categories li{
+    padding-left: 0;
+}
+
+.widget_categories li:before {    
+    content: none;    
+}
+
+.button-group{
+    margin-top: 10px;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 10px;
+}
+
+a:hover{ 
+    text-decoration: none;
+}
+
+.error{
+    color: #a94442;
+}
+
+td, th, label{
+    color: #5e6977;    
+}
