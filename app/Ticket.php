@@ -73,7 +73,7 @@ class Ticket extends Model
     public function getAgentFormatted()
     {
         if($this->agent_id != null){
-            return $this->getAgent->name;
+            return $this->getAgent->getNameFormatted();
         } else {
             return 'Não definido';
         }

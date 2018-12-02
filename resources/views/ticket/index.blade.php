@@ -38,7 +38,7 @@
                                     </td>
                                     <td>{{ $t->subject }}</td>
                                     @if(Auth::user()->type_id == 1)
-                                        <td>{{ $t->getUser->name }}</td>
+                                        <td>{{ $t->getUser->getNameFormatted() }}</td>
                                     @endif                                                                                                        
                                     <td>{{ $t->getCreatedAtFormatted() }}</td>
                                     <td>{{ $t->getPriority->name }}</td>
