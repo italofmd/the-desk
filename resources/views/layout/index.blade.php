@@ -260,7 +260,7 @@
         </div>
         
         <footer class="footer"> © 2018 Todos os direitos reservados. Desenvolvido por
-            <a href="https://italodeveloper.com.br" target="_blank">Ítalo Developer</a>
+            <a href="https://italodeveloper.com.br" target="_blank">Ítalo Ferreira</a>
         </footer>        
     </div>    
 </div>
